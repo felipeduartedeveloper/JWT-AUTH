@@ -14,3 +14,5 @@ down:
 
 it:
 	docker exec -it data bash
+
+

@@ -70,4 +70,4 @@ server.get('/me', authMiddleware, (req, res) => {
   res.send(req.auth)
 })
 
-server.start()
+server.start(() => console.log('started'))
